@@ -1,0 +1,56 @@
+{
+  "pos": [
+    {
+      "Sentence": "RT @Tractor2twitr: A photo opportunity, a new list of jumlas, a new turban avatar, a new divisive agenda, a great entertainment show. All g\u2026",
+      "Sentiment": "Positive",
+      "Score": 0.8658
+    }
+  ],
+  "neg": [
+    {
+      "Sentence": "RT @Kisanektamorcha: PM Modi is blaming Punjab #\u0915\u094d\u092f\u094b\u0902\u0915\u093f_\u0915\u0941\u0930\u094d\u0938\u093f\u092f\u093e\u0902_\u0916\u093e\u0932\u0940_\u0925\u0940\nBut wht abt the game played by BJP people\nWhy knowingly tht BJP w\u2026",
+      "Sentiment": "Negative",
+      "Score": 0.25
+    },
+    {
+      "Sentence": "RT @Tractor2twitr: Modi lied to the nation\nSikhs were threatened for another genocide\nPunjab was labeled as a disturbed state\n\nWhy?\n\n\ud83d\udc47\ud83c\udffb\n#\u2026",
+      "Sentiment": "Negative",
+      "Score": -0.802
+    },
+    {
+      "Sentence": "RT @Tractor2twitr: Why this whole drama by Modi?\n\nbecause #\u0915\u094d\u092f\u094b\u0902\u0915\u093f_\u0915\u0941\u0930\u094d\u0938\u093f\u092f\u093e\u0902_\u0916\u093e\u0932\u0940_\u0925\u0940 https://t.co/syBLGcD46r",
+      "Sentiment": "Negative",
+      "Score": 0.0
+    },
+    {
+      "Sentence": "RT @Tractor2twitr: The Nation Wants to Know.\n\nWhy are @BJP4India bhakts hating Punjab so much?\n\n#\u0915\u094d\u092f\u094b\u0902\u0915\u093f_\u0915\u0941\u0930\u094d\u0938\u093f\u092f\u093e\u0902_\u0916\u093e\u0932\u0940_\u0925\u0940 ?",
+      "Sentiment": "Negative",
+      "Score": -0.5106
+    },
+    {
+      "Sentence": "RT @Tractor2twitr: .@narendramodi You took risk of traveling from Bathinda to Ferozepur by road hoping your paid bhakts brought from Himach\u2026",
+      "Sentiment": "Negative",
+      "Score": 0.1779
+    },
+    {
+      "Sentence": "RT @Tractor2twitr: .@narendramodi your brigade is full of hatred for Sikhs.\nThey hv not just abused but threatened another genocide of Sikh\u2026",
+      "Sentiment": "Negative",
+      "Score": -0.6955
+    },
+    {
+      "Sentence": "RT @Tractor2twitr: Hey @TimesNow some \"exclusive\" treasure for you!\n\nHere in this 'not' animated video, Modi ji says he does nothing withou\u2026",
+      "Sentiment": "Negative",
+      "Score": 0.4019
+    },
+    {
+      "Sentence": "RT @Tractor2twitr: .@PunjabPoliceInd @DGPPunjabPolice BJP Spokesman @KuldipBJP is openly threatening &amp; intimidating farmers for a conflict/\u2026",
+      "Sentiment": "Negative",
+      "Score": -0.8225
+    },
+    {
+      "Sentence": "RT @Tractor2twitr: #\u0915\u094d\u092f\u094b\u0902\u0915\u093f_\u0915\u0941\u0930\u094d\u0938\u093f\u092f\u093e\u0902_\u0916\u093e\u0932\u0940_\u0925\u0940 thats why\nfarmers are still trending at no. 2",
+      "Sentiment": "Negative",
+      "Score": -0.296
+    }
+  ]
+}

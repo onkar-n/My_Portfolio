@@ -1,0 +1,44 @@
+<div class="box">
+  <canvas
+    width="600px"
+    height="600px"
+    baseChart
+    [datasets]="barChartData"
+    [options]="barChartOptions"
+    [labels]="barChartLabels"
+    [type]="barChartType"
+    [legend]="barChartLegend"
+    (chartClick)="chartClicked($event)"
+  ></canvas>
+
+  <canvas
+    width="400px"
+    height="400px"
+    baseChart
+    [datasets]="sentimentData"
+    [options]="barChartOptions"
+    [labels]="sentimentDataLabels"
+    [type]="sentimentChartType"
+    [legend]="barChartLegend"
+    (chartClick)="clickchild($event)"
+  ></canvas>
+</div>
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Twitts</th>
+      <th>Sentiment</th>
+      <th scope="col">Sentiment-Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let x of tweetsData[0]; index as i">
+      <th scope="row">{{ i + 1 }}</th>
+      <td>{{ x.Sentence }}</td>
+      <td>{{ x.Sentiment }}</td>
+      <td>{{ x.Score }}</td>
+    </tr>
+  </tbody>
+</table>

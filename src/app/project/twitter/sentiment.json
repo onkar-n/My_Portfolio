@@ -1,0 +1,168 @@
+[
+  {
+    "index": 0,
+    "name": "#HBDRockingStarYASH",
+    "sentiment": { "pos": 31, "neg": 69 }
+  },
+  {
+    "index": 1,
+    "name": "#\u0915\u094d\u092f\u094b\u0902\u0915\u093f_\u0915\u0941\u0930\u094d\u0938\u093f\u092f\u093e\u0902_\u0916\u093e\u0932\u0940_\u0925\u0940",
+    "sentiment": { "pos": 27, "neg": 73 }
+  },
+  {
+    "index": 2,
+    "name": "#SaturdayMotivation",
+    "sentiment": { "pos": 97, "neg": 3 }
+  },
+  {
+    "index": 3,
+    "name": "TEJASSWI DESERVES TO WIN",
+    "sentiment": { "pos": 24, "neg": 76 }
+  },
+  { "index": 4, "name": "#KGFChapter2", "sentiment": { "pos": 63, "neg": 37 } },
+  { "index": 5, "name": "#KGF2onApr14", "sentiment": { "pos": 28, "neg": 72 } },
+  {
+    "index": 6,
+    "name": "DESERVING WINNER PRATIK",
+    "sentiment": { "pos": 86, "neg": 14 }
+  },
+  {
+    "index": 7,
+    "name": "DID YOU BUY WORTHPAD",
+    "sentiment": { "pos": 97, "neg": 3 }
+  },
+  {
+    "index": 8,
+    "name": "GASHMEER MAHAJANI SUPREMACY",
+    "sentiment": { "pos": 15, "neg": 85 }
+  },
+  {
+    "index": 9,
+    "name": "PUBLIC WINNER UMAR RIAZ",
+    "sentiment": { "pos": 37, "neg": 63 }
+  },
+  {
+    "index": 10,
+    "name": "SSR K Katilon Ko Dand Do",
+    "sentiment": { "pos": 22, "neg": 78 }
+  },
+  { "index": 11, "name": "Rocky Bhai", "sentiment": { "pos": 59, "neg": 41 } },
+  {
+    "index": 12,
+    "name": "Justice for Sushant Disha Now",
+    "sentiment": { "pos": 71, "neg": 29 }
+  },
+  {
+    "index": 13,
+    "name": "WE LOVE YOU JUNGKOOK",
+    "sentiment": { "pos": 86, "neg": 14 }
+  },
+  { "index": 14, "name": "Saint Dr.", "sentiment": { "pos": 68, "neg": 32 } },
+  { "index": 15, "name": "Punjabi", "sentiment": { "pos": 90, "neg": 10 } },
+  { "index": 16, "name": "Pushpa", "sentiment": { "pos": 72, "neg": 28 } },
+  {
+    "index": 17,
+    "name": "#HappyBirthdayHarrisJayaraj",
+    "sentiment": { "pos": 65, "neg": 35 }
+  },
+  { "index": 18, "name": "#WEBTOON_V", "sentiment": { "pos": 88, "neg": 12 } },
+  {
+    "index": 19,
+    "name": "#SaturdayMorning",
+    "sentiment": { "pos": 24, "neg": 76 }
+  },
+  {
+    "index": 20,
+    "name": "#WEBTOON_JUNGKOOK",
+    "sentiment": { "pos": 7, "neg": 93 }
+  },
+  {
+    "index": 21,
+    "name": "#WEBTOON_JIMIN",
+    "sentiment": { "pos": 60, "neg": 40 }
+  },
+  {
+    "index": 22,
+    "name": "#WEBTOON_SUGA",
+    "sentiment": { "pos": 97, "neg": 3 }
+  },
+  { "index": 23, "name": "#FoodBank", "sentiment": { "pos": 49, "neg": 51 } },
+  {
+    "index": 24,
+    "name": "#WEBTOON_JHOPE",
+    "sentiment": { "pos": 69, "neg": 31 }
+  },
+  {
+    "index": 25,
+    "name": "#SaturdayThoughts",
+    "sentiment": { "pos": 10, "neg": 90 }
+  },
+  { "index": 26, "name": "#DelhiRains", "sentiment": { "pos": 15, "neg": 85 } },
+  { "index": 27, "name": "#CHAKHO", "sentiment": { "pos": 8, "neg": 92 } },
+  {
+    "index": 28,
+    "name": "#BTSxWEBTOON",
+    "sentiment": { "pos": 57, "neg": 43 }
+  },
+  {
+    "index": 29,
+    "name": "#SaturdayVibes",
+    "sentiment": { "pos": 68, "neg": 32 }
+  },
+  { "index": 30, "name": "#ZEHA", "sentiment": { "pos": 98, "neg": 2 } },
+  {
+    "index": 31,
+    "name": "#\u092f\u0947_\u0927\u094b\u0916\u093e_\u092f\u093e\u0926_\u0930\u0916\u0947\u0917\u093e_\u0936\u093f\u0915\u094d\u0937\u093e\u092e\u093f\u0924\u094d\u0930",
+    "sentiment": { "pos": 30, "neg": 70 }
+  },
+  { "index": 32, "name": "#HWAN", "sentiment": { "pos": 83, "neg": 17 } },
+  { "index": 33, "name": "#JOOAN", "sentiment": { "pos": 100, "neg": 0 } },
+  { "index": 34, "name": "#HARU", "sentiment": { "pos": 57, "neg": 43 } },
+  { "index": 35, "name": "#CEIN", "sentiment": { "pos": 56, "neg": 44 } },
+  { "index": 36, "name": "#DOGEON", "sentiment": { "pos": 2, "neg": 98 } },
+  { "index": 37, "name": "#HOSU", "sentiment": { "pos": 84, "neg": 16 } },
+  {
+    "index": 38,
+    "name": "#public_review",
+    "sentiment": { "pos": 44, "neg": 56 }
+  },
+  {
+    "index": 39,
+    "name": "#StephenHawking",
+    "sentiment": { "pos": 48, "neg": 52 }
+  },
+  {
+    "index": 40,
+    "name": "#HBDHarshSanghavi",
+    "sentiment": { "pos": 81, "neg": 19 }
+  },
+  {
+    "index": 41,
+    "name": "#GodMorningSaturday",
+    "sentiment": { "pos": 11, "neg": 89 }
+  },
+  {
+    "index": 42,
+    "name": "#MumbaiRains",
+    "sentiment": { "pos": 84, "neg": 16 }
+  },
+  { "index": 43, "name": "#SmackDown", "sentiment": { "pos": 81, "neg": 19 } },
+  { "index": 44, "name": "#dolo650", "sentiment": { "pos": 41, "neg": 59 } },
+  {
+    "index": 45,
+    "name": "#PMModiSecurityBreach",
+    "sentiment": { "pos": 26, "neg": 74 }
+  },
+  { "index": 46, "name": "#Snowfall", "sentiment": { "pos": 49, "neg": 51 } },
+  { "index": 47, "name": "#RainyDay", "sentiment": { "pos": 72, "neg": 28 } },
+  {
+    "index": 48,
+    "name": "#weekendvibes",
+    "sentiment": { "pos": 40, "neg": 60 }
+  },
+  {
+    "index": 49,
+    "name": "#morningmotivation",
+    "sentiment": { "pos": 33, "neg": 67 }
+  }
+]
