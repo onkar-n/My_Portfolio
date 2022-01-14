@@ -11,8 +11,10 @@ import { ProjectComponent } from './project/project.component';
 import { TestComponent } from './project/test/test.component';
 import { AboutComponent } from './about/about.component';
 import { SkillsComponent } from './skills/skills.component';
+import { FrontendComponent } from './skills/frontend/frontend.component';
+import { BackendComponent } from './skills/backend/backend.component';
 @NgModule({
-  declarations: [AppComponent, TwitterComponent, HomeComponent, ProjectComponent, TestComponent, AboutComponent, SkillsComponent],
+  declarations: [AppComponent, TwitterComponent, HomeComponent, ProjectComponent, TestComponent, AboutComponent, SkillsComponent, FrontendComponent, BackendComponent],
   imports: [BrowserModule, AppRoutingModule, NgChartsModule, NgbModule],
   providers: [],
   bootstrap: [AppComponent],

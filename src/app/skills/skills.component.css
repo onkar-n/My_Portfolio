@@ -1,0 +1,32 @@
+.skillmain__container {
+  /* border: 2px solid; */
+}
+
+.wrapper {
+  margin: 0 200px;
+  margin-top: 50px;
+}
+
+.skills__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill__content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+}
+
+.description {
+  display: flex;
+  gap: 100px;
+}
+
+/* img{
+  border: 2px solid;
+} */

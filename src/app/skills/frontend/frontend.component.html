@@ -1,0 +1,19 @@
+<div>
+  <span> <b>Front-end Technoligy</b> </span>
+</div>
+
+<div class="contain">
+  <div class="skill__info" *ngFor="let x of lang">
+    <div class="skill">
+      <div>
+        <span>{{ x.name }}</span>
+      </div>
+      <div>
+        <span>{{ x.status }}</span>
+      </div>
+    </div>
+    <div class="bar">
+      <div class="percentage" style.width="{{ x.status }}"></div>
+    </div>
+  </div>
+</div>
