@@ -1,20 +1,33 @@
+.frontend__outer__container {
+  width: 100vw;
+  /* border: 2px solid; */
+}
+
+.frontnd__inner__container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 200px;
+}
+
 .contain {
   width: 250px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  gap: 20px;
+  justify-content: center;
+  gap: 25px;
+  /* margin-left: 200px; */
+  /* border: 2px solid; */
 }
 
 .skill {
   display: flex;
   justify-content: space-between;
-  
+  /* border: 2px solid; */
 }
 
 .bar {
   width: 100%;
-  height: 12px;
+  height: 10px;
   background: #c7c5ff;
   border-radius: 5px;
   margin-top: 5px;
@@ -25,4 +38,27 @@
   background: #6f6bfa;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
+}
+
+.frontnd__inner__container img{
+  margin-right: 100px;
+
+}
+
+
+
+
+.design__inner__container{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 200px;
+
+}
+
+
+
+
+.design__inner__container .contain{
+  margin-right: 200px;
+
 }

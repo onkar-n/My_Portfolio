@@ -12,6 +12,12 @@ export class BackendComponent implements OnInit {
     { name: 'JavaScript', status: '90%' },
     { name: 'Angular', status: '90%' },
   ];
+
+
+
+  
+  
+  
   constructor() { }
 
   ngOnInit(): void {

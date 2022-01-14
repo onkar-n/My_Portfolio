@@ -1,19 +1,87 @@
-<div>
+<!-- <div>
   <span> <b>Front-end Technoligy</b> </span>
-</div>
+</div> -->
 
-<div class="contain">
-  <div class="skill__info" *ngFor="let x of lang">
-    <div class="skill">
-      <div>
-        <span>{{ x.name }}</span>
+
+
+<div class="frontend__outer__container">
+  <div class="frontnd__inner__container">
+
+    <!-- stats -->
+    <div class="contain">
+      
+      <div class="skill__info" *ngFor="let x of lang">
+        <div class="skill">
+          <div>
+            <span>{{ x.name }}</span>
+          </div>
+          <div>
+            <span>{{ x.status }}</span>
+          </div>
+        </div>
+        
+        <div class="bar">
+          <div class="percentage" style.width="{{ x.status }}"></div>
+        </div>
       </div>
-      <div>
-        <span>{{ x.status }}</span>
-      </div>
+    
     </div>
-    <div class="bar">
-      <div class="percentage" style.width="{{ x.status }}"></div>
+    <!-- stats ends -->
+
+
+
+    <!-- Image   -->
+    <div class="image">
+      <img src="../../assets/images/undraw_static_assets_rpm6.svg"  width="618" height="438" />
     </div>
+    <!-- Image Ends -->
+  
+  
+  
   </div>
+
+
+
+
+
+
+    <div class="design__inner__container">
+
+      <div class="image">
+        <img src="../../assets/images/undraw_design_tools_-42-tf.svg" width="698" height="438"  />
+    </div>
+
+
+        <!-- stats -->
+        <div class="contain">
+      
+          <div class="skill__info" *ngFor="let x of dt">
+            <div class="skill">
+              <div>
+                <span>{{ x.name }}</span>
+              </div>
+              <div>
+                <span>{{ x.status }}</span>
+              </div>
+            </div>
+            
+            <div class="bar">
+              <div class="percentage" style.width="{{ x.status }}"></div>
+            </div>
+          </div>
+        
+        </div>
+        <!-- stats ends -->
+  
+
+
+
+
+    </div>
+
+
+
+
+
+
 </div>
