@@ -1,19 +1,33 @@
-.home__container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 200px;
+.box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "a b";
+  margin: 0 16.2337662vw;
+  gap: 1.352813853vw;
 }
-.home__data {
+
+.itemA {
+  /* background: #eee; */
+  grid-area: a;
+}
+
+.itemB {
+  /* background: #eee; */
+  grid-area: b;
+}
+
+img {
   width: 100%;
   height: 100%;
 }
 
-.img {
-  text-align: right;
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-button{
+button {
   border: none;
   outline: none;
   padding: 10px;

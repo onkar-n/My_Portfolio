@@ -1,8 +1,10 @@
-<header class="header" id="header">
-  <nav class="nav__logo">
+<div class="header">
+  <div class="logo">
     <div><a href="">Onkar</a></div>
-  </nav>
-  <nav class="nav__menu">
+  </div>
+
+  <!-- Navigation bar -->
+  <div class="nav">
     <div>
       <a
         routerLinkActive="active"
@@ -11,28 +13,25 @@
         >Home</a
       >
     </div>
-    <div><a routerLink="about">About</a></div>
-    <div><a routerLink="skills">Skills</a></div>
+    <div><a routerLinkActive="active" routerLink="about">About</a></div>
+    <div><a routerLinkActive="active" routerLink="skills">Skills</a></div>
     <div><a routerLinkActive="active" routerLink="/projects">Projects</a></div>
-  </nav>
-</header>
+  </div>
+</div>
 <router-outlet></router-outlet>
 
-<div class="containe">
-  <div class="wrapper">
-      <div class="item item1"></div>
-      <div class="item"></div>
-      <div class="item"></div>
-      <div class="item"></div>
-      <div class="item"></div>
-      <div class="item"></div>
-      <div class="item"></div>
-      <div class="item"></div>
-      <div class="item"></div>
-      <div class="item"></div>
-      <div class="item"></div>
-      <div class="item item12"></div>
-  </div>
-
-
-</div>
+<!-- 
+<div class="wrapper">
+  <div class="item item1">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+  <div class="item">5</div>
+  <div class="item">6</div>
+  <div class="item">7</div>
+  <div class="item">8</div>
+  <div class="item">9</div>
+  <div class="item">10</div>
+  <div class="item">11</div>
+  <div class="item item12">12</div>
+</div> -->

@@ -1,7 +1,6 @@
 import { SkillsComponent } from './skills/skills.component';
 import { AboutComponent } from './about/about.component';
 import { TwitterComponent } from './project/twitter/twitter.component';
-import { TestComponent } from './project/test/test.component';
 import { ProjectComponent } from './project/project.component';
 import { HomeComponent } from './home/home.component';
 import { NgModule, Component } from '@angular/core';

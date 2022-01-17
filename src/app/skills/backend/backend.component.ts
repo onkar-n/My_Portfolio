@@ -3,24 +3,18 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-backend',
   templateUrl: './backend.component.html',
-  styleUrls: ['./backend.component.css']
+  styleUrls: ['./backend.component.css'],
 })
 export class BackendComponent implements OnInit {
   lang = [
-    { name: 'Html', status: '80%' },
-    { name: 'Css', status: '60%' },
-    { name: 'JavaScript', status: '90%' },
-    { name: 'Angular', status: '90%' },
+    { name: 'Python', status: '80%' },
+    { name: 'Flask', status: '60%' },
+    { name: 'Django', status: '90%' },
+    { name: 'Java', status: '90%' },
+    { name: 'Spring boot', status: '90%' },
   ];
 
+  constructor() {}
 
-
-  
-  
-  
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

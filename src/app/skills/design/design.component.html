@@ -1,10 +1,15 @@
 <div class="box">
-  <div class="itemA"><h4>Backend</h4></div>
+  <div class="itemA">
+    <h4>Design</h4>
+  </div>
   <div class="itemB">
+    <img src="../../../assets/images/undraw_design_tools_-42-tf.svg" alt="" />
+  </div>
+  <div class="itemC">
     <!-- stats -->
     <div class="wrapper">
       <div class="contain">
-        <div class="skill__info" *ngFor="let x of lang">
+        <div class="skill__info" *ngFor="let x of dt">
           <div class="skill">
             <div>
               <span>{{ x.name }}</span>
@@ -19,10 +24,7 @@
           </div>
         </div>
       </div>
+      <!-- stats ends -->
     </div>
-    <!-- stats ends -->
-  </div>
-  <div class="itemC">
-    <img src="../../../assets/images/drawing2.svg" />
   </div>
 </div>
