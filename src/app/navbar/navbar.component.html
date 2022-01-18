@@ -1,0 +1,37 @@
+<header>
+  <!-- Logo stats -->
+  <div class="logo-container">
+    <h2>Logo</h2>
+  </div>
+  <!-- Logo ends -->
+
+  <!-- Navbar starts -->
+  <div class="navbar-container">
+    <div class="nav-item">
+      <a
+        class="nav-home"
+        routerLink="/"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >Home</a
+      >
+    </div>
+    <div class="nav-item">
+      <a class="nav-about" routerLink="about" routerLinkActive="active"
+        >About</a
+      >
+    </div>
+    <div class="nav-item">
+      <a class="nav-skills" routerLink="skills" routerLinkActive="active"
+        >Skills</a
+      >
+    </div>
+    <div class="nav-item">
+      <a class="nav-project" routerLink="projects" routerLinkActive="active"
+        >Project</a
+      >
+    </div>
+  </div>
+  <!-- Navbar ends -->
+</header>
+<router-outlet></router-outlet>

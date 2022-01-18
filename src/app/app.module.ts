@@ -14,8 +14,9 @@ import { SkillsComponent } from './skills/skills.component';
 import { FrontendComponent } from './skills/frontend/frontend.component';
 import { BackendComponent } from './skills/backend/backend.component';
 import { DesignComponent } from './skills/design/design.component';
+import { NavbarComponent } from './navbar/navbar.component';
 @NgModule({
-  declarations: [AppComponent, TwitterComponent, HomeComponent, ProjectComponent, TestComponent, AboutComponent, SkillsComponent, FrontendComponent, BackendComponent, DesignComponent],
+  declarations: [AppComponent, TwitterComponent, HomeComponent, ProjectComponent, TestComponent, AboutComponent, SkillsComponent, FrontendComponent, BackendComponent, DesignComponent, NavbarComponent],
   imports: [BrowserModule, AppRoutingModule, NgChartsModule, NgbModule],
   providers: [],
   bootstrap: [AppComponent],

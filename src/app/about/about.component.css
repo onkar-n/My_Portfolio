@@ -10,25 +10,23 @@
 }
 
 .itemA {
-  /* background: #eee; */
+  background: #eee;
   grid-area: a;
   text-align: center;
 }
 
 .itemB {
-  /* background: #eee; */
+  background: #eee;
   grid-area: b;
 }
 
 
 img {
   transform: scaleX(-1);
-  width: 100%;
-  height: 100%;
 }
 
 .itemC {
-  /* background: #eee; */
+  background: #eee;
   grid-area: c;
 }
 

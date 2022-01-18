@@ -1,18 +1,18 @@
 .box {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr ;
   grid-template-areas: "a b";
   margin: 0 16.2337662vw;
   gap: 1.352813853vw;
 }
 
 .itemA {
-  /* background: #eee; */
+  background: #eee;
   grid-area: a;
 }
 
 .itemB {
-  /* background: #eee; */
+  background: #eee;
   grid-area: b;
 }
 
