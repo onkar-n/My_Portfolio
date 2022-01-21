@@ -1,4 +1,5 @@
 <div class="box">
+  <!-- Messenger starts -->
   <div class="chatbot-container" [style.opacity]="isactive">
     <!-- logo starts -->
     <div class="logo">
@@ -7,20 +8,10 @@
         <span class="title-text">Hello, How can I help you today?</span>
       </div>
     </div>
-
     <!-- logo ends -->
 
     <!-- conversation starts -->
-    <div class="conversation">
-      <div class="xyz" *ngFor="let x of a">
-        <div class="out">
-          <span>{{ x.Reply }}</span>
-        </div>
-        <div class="in">
-          <span>{{ x.Query }}</span>
-        </div>
-      </div>
-    </div>
+    <div class="conversation" #amit></div>
 
     <!-- conversation ends -->
 
@@ -30,6 +21,8 @@
         class="input"
         type="text"
         placeholder="Type here..."
+        onfocus="this.placeholder=''"
+        onblur="this.placeholder='Type here...'"
         #in
         (keyup.enter)="query($event.target)"
       />
@@ -42,8 +35,15 @@
     </div>
     <!-- Input section ends -->
   </div>
+  <!-- Messenger ends -->
 
-  <div class="chatbox__button" (click)="toggle()">
-    <button class="b"><img src="../../assets/images/Component 1.svg" /></button>
+  <!-- widget starts -->
+  <div class="chatbox__button">
+    <button class="b" (click)="toggle()">
+      <img src="../../assets/images/Component 1.svg" />
+    </button>
   </div>
+  <!-- widget ends -->
 </div>
+
+
