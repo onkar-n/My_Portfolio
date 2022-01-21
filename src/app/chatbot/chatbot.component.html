@@ -2,7 +2,10 @@
   <div class="chatbot-container" [style.opacity]="isactive">
     <!-- logo starts -->
     <div class="logo">
-      <h2>Bot</h2>
+      <div><span class="logo-text">AI-Bot</span></div>
+      <div>
+        <span class="title-text">Hello, How can I help you today?</span>
+      </div>
     </div>
 
     <!-- logo ends -->
@@ -10,7 +13,7 @@
     <!-- conversation starts -->
     <div class="conversation">
       <div class="xyz" *ngFor="let x of a">
-        <div class='out'>
+        <div class="out">
           <span>{{ x.Reply }}</span>
         </div>
         <div class="in">
@@ -26,18 +29,21 @@
       <input
         class="input"
         type="text"
-        placeholder="Please start conversation"
+        placeholder="Type here..."
+        #in
         (keyup.enter)="query($event.target)"
       />
 
       <div class="img">
-        <button class="send-button">Send</button>
+        <button class="arrow" (click)="query(in)">
+          <img src="../../assets/images/arrow.svg" alt="" />
+        </button>
       </div>
     </div>
     <!-- Input section ends -->
   </div>
 
   <div class="chatbox__button" (click)="toggle()">
-    <button><img src="../../assets/images/chatbox-icon.svg" /></button>
+    <button class="b"><img src="../../assets/images/Component 1.svg" /></button>
   </div>
 </div>

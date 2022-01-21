@@ -13,10 +13,12 @@ export class ChatbotComponent implements OnInit {
 
   a: any[] = [];
   query(query: any) {
+    console.log(query.value);
     this.chat.postData(query.value).subscribe((d) => {
       this.a.push(d);
       this.a.reverse();
     });
+    query.value = null;
   }
 
   isactive = 1;
