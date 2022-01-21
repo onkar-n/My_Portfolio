@@ -1,0 +1,43 @@
+<div class="box">
+  <div class="chatbot-container" [style.opacity]="isactive">
+    <!-- logo starts -->
+    <div class="logo">
+      <h2>Bot</h2>
+    </div>
+
+    <!-- logo ends -->
+
+    <!-- conversation starts -->
+    <div class="conversation">
+      <div class="xyz" *ngFor="let x of a">
+        <div class='out'>
+          <span>{{ x.Reply }}</span>
+        </div>
+        <div class="in">
+          <span>{{ x.Query }}</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- conversation ends -->
+
+    <!-- Input section start -->
+    <div class="input-container">
+      <input
+        class="input"
+        type="text"
+        placeholder="Please start conversation"
+        (keyup.enter)="query($event.target)"
+      />
+
+      <div class="img">
+        <button class="send-button">Send</button>
+      </div>
+    </div>
+    <!-- Input section ends -->
+  </div>
+
+  <div class="chatbox__button" (click)="toggle()">
+    <button><img src="../../assets/images/chatbox-icon.svg" /></button>
+  </div>
+</div>

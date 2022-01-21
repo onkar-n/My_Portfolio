@@ -7,12 +7,12 @@
 }
 
 .itemA {
-  background: #eee;
+  /* background: #eee; */
   grid-area: a;
 }
 
 .itemB {
-  background: #eee;
+  /* background: #eee; */
   grid-area: b;
 }
 

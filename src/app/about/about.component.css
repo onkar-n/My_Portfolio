@@ -10,13 +10,13 @@
 }
 
 .itemA {
-  background: #eee;
+  /* background: #eee; */
   grid-area: a;
   text-align: center;
 }
 
 .itemB {
-  background: #eee;
+  /* background: #eee; */
   grid-area: b;
 }
 
@@ -26,7 +26,7 @@ img {
 }
 
 .itemC {
-  background: #eee;
+  /* background: #eee; */
   grid-area: c;
 }
 
