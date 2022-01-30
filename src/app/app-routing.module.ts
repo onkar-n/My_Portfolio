@@ -30,7 +30,16 @@ const routes: Routes = [
 
   { path: 'contact', component: ContactComponent },
 
-  { path: '', children: [{ path: 'twitter', component: TwitterComponent }] },
+  {
+    path: '',
+    children: [
+      { path: 'twitter', component: TwitterComponent },
+      {
+        path: 'todo',
+        component: TodoComponent,
+      },
+    ],
+  },
 ];
 
 @NgModule({
