@@ -1,0 +1,50 @@
+<div class="todo-container">
+  <h1 class="title">Todo App</h1>
+
+  <div class="task-container">
+    <div class="input-container">
+      <div class="task-input">
+        <input
+          type="text"
+          placeholder="Task"
+          #name
+          (keyup.enter)="getname($event.target)"
+        />
+      </div>
+
+      <!-- <div class="task-description">
+        <input type="text" placeholder="Description" />
+      </div> -->
+
+      <div class="add-button">
+        <button type="button" class="btn btn-primary" (click)="getname(name)">
+          Add Todo
+        </button>
+      </div>
+    </div>
+
+    <button type="button" class="btn btn-danger" (click)="removeAll()">
+      Delete
+    </button>
+  </div>
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Task</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let x of names; index as i">
+        <td>{{ i + 1 }}</td>
+        <td>{{ x }}</td>
+        <td>
+          <button type="button" class="btn btn-danger" (click)="remove(i)">
+            Delete
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

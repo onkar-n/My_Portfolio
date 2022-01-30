@@ -2,6 +2,7 @@ import {
   AfterViewInit,
   Component,
   ElementRef,
+  Input,
   OnInit,
   Renderer2,
   ViewChild,
@@ -46,25 +47,16 @@ export class ChatbotComponent implements OnInit, AfterViewInit {
     query.value = null;
   }
 
-  isactive = 1;
-
+  loginFlag: boolean = false;
   toggle() {
-    if (this.isactive == 0) {
-      this.isactive = 1;
+    if (this.loginFlag == false) {
+      this.loginFlag = true;
     } else {
-      this.isactive = 0;
+      this.loginFlag = false;
     }
   }
 
-  ngOnInit(): void {
-    console.log(this.box);
-  }
+  ngOnInit(): void {}
 
-  ngAfterViewInit(): void {
-    // let div = this.renderer.createElement('div');
-    // let span = this.renderer.createElement('span');
-    // span.innerText = 'Hello bro';
-    // div.appendChild(span);
-    // this.renderer.appendChild(this.box.nativeElement, div);
-  }
+  ngAfterViewInit(): void {}
 }

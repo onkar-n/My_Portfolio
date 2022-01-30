@@ -1,17 +1,28 @@
 <div class="box">
   <!-- Messenger starts -->
-  <div class="chatbot-container" [style.opacity]="isactive">
+  <div *ngIf="loginFlag" class="chatbot-container">
     <!-- logo starts -->
-    <div class="logo">
-      <div><span class="logo-text">AI-Bot</span></div>
+    <div class="logo" (click)="toggle()">
       <div>
-        <span class="title-text">Hello, How can I help you today?</span>
+        <div><span class="logo-text">AI-Bot</span></div>
+        <div>
+          <span class="title-text">Hello, How can I help you today?</span>
+        </div>
+      </div>
+
+      <div class="close">
+        <div class="dash"></div>
       </div>
     </div>
     <!-- logo ends -->
 
     <!-- conversation starts -->
-    <div class="conversation" #amit></div>
+
+    <div class="conversation">
+      <div class="wrapper" #amit>
+        <!-- <div><span class="inbox">hi</span></div> -->
+      </div>
+    </div>
 
     <!-- conversation ends -->
 
@@ -20,9 +31,9 @@
       <input
         class="input"
         type="text"
-        placeholder="Type here..."
+        placeholder="Pleae type your query here..."
         onfocus="this.placeholder=''"
-        onblur="this.placeholder='Type here...'"
+        onblur="this.placeholder='Pleae type your query here...'"
         #in
         (keyup.enter)="query($event.target)"
       />
@@ -38,12 +49,10 @@
   <!-- Messenger ends -->
 
   <!-- widget starts -->
-  <div class="chatbox__button">
+  <div *ngIf="!loginFlag" class="chatbox__button">
     <button class="b" (click)="toggle()">
       <img src="../../assets/images/Component 1.svg" />
     </button>
   </div>
   <!-- widget ends -->
 </div>
-
-

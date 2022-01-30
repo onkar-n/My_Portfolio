@@ -1,0 +1,15 @@
+.con {
+  margin: 0 200px;
+  margin-top: 25px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 25px;
+}
+
+h2 {
+  margin: 0 200px;
+  /* background-color: rgb(250, 250, 250);
+  box-shadow: 0 0 5px 1px rgb(230, 230, 230); */
+}

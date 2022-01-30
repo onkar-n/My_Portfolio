@@ -1,3 +1,5 @@
+import { TodoComponent } from './project/todo/todo.component';
+import { ContactComponent } from './contact/contact.component';
 import { SkillsComponent } from './skills/skills.component';
 import { AboutComponent } from './about/about.component';
 import { TwitterComponent } from './project/twitter/twitter.component';
@@ -19,8 +21,16 @@ const routes: Routes = [
         path: 'twitter',
         component: TwitterComponent,
       },
+      {
+        path: 'todo',
+        component: TodoComponent,
+      },
     ],
   },
+
+  { path: 'contact', component: ContactComponent },
+
+  { path: '', children: [{ path: 'twitter', component: TwitterComponent }] },
 ];
 
 @NgModule({

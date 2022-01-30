@@ -1,0 +1,102 @@
+/* .header-content{
+    margin: 0 22rem;
+}
+
+.header-content .holder.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 10rem);   
+}
+
+img{
+    transform: scaleX(-100%);   
+    width: 100%;
+    
+    
+
+}
+
+text{
+    margin-top: 1rem;
+}
+
+.button{
+    display: inline-block;
+    background-color: #8A3FFC;
+    color: white;
+    padding: .8rem 1.6rem;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.column-1{
+
+} */
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "a b";
+  margin: 0 200px;
+  gap: 1.352813853vw;
+  align-items: center;
+}
+
+.itemA {
+  /* background: #eee; */
+  grid-area: a;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+}
+
+.job {
+}
+
+.description {
+  margin-top: 15px;
+}
+
+.contact {
+  margin-top: 15px;
+}
+
+.image {
+  /* background: #eee; */
+  grid-area: b;
+  text-align: end;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 10px;
+  background: #6f6bfa;
+  color: white;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}

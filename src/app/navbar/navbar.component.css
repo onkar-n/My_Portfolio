@@ -1,6 +1,5 @@
 header {
-  /* background: #eee; */
-  margin: 0 15.625vw;
+  margin: 0 200px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -14,10 +13,10 @@ header {
 .navbar-container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 40px;
+  gap: 2rem;
 
-  /* background-color: rgb(201, 255, 201); */
 }
 
 .nav-item {
@@ -26,8 +25,10 @@ header {
 a {
   text-decoration: none;
   font-size: 1.25rem;
+  padding: 5px 8px;
+  color: black;
 }
 
 .active {
-  color: green;
+  background-color: rgb(217, 255, 217);
 }

@@ -1,7 +1,7 @@
 .box {
   position: fixed;
-  bottom: 30px;
-  right: 30px;
+  bottom: 60px;
+  right: 60px;
   display: flex;
   flex-direction: column;
 }
@@ -19,13 +19,14 @@
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgb(229 229 255);
-}
+  background-color: rgb(227 227 244);
 
-.xyz {
-  margin: 0 10px;
   display: flex;
   flex-direction: column-reverse;
+}
+
+.wrapper {
+  margin: 0 10px;
 }
 
 .in {
@@ -40,19 +41,12 @@
 
 .inbox,
 .outbox {
-  padding: 2px 4px;
+  padding: 5px 10px;
   border-radius: 5px;
   font-size: 1rem;
-
+  background-color: white;
+  color: black;
   margin-bottom: 25px;
-}
-
-.inbox {
-  background-color: rgb(255, 213, 213);
-}
-
-.outbox {
-  background-color: rgb(253, 251, 255);
 }
 
 .input-container {
@@ -113,8 +107,17 @@ input[type="text"] {
 
 .logo {
   display: flex;
-  flex-direction: column;
-  background-color: #5855c7;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #4f4ca3;
+}
+
+.dash {
+  width: 18px;
+  height: 3px;
+  background-color: white;
+  margin-top: 15px;
+  margin-right: 15px;
 }
 
 .logo-text {
@@ -130,10 +133,4 @@ input[type="text"] {
 .logo-text,
 .title-text {
   margin-left: 5px;
-}
-
-.vxx {
-  width: 100px;
-  height: 100px;
-  background-color: #eee;
 }

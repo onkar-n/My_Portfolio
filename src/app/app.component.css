@@ -5,7 +5,7 @@
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   column-gap: 0.25vw;
-  margin: 0 16.2337662vw;
+  margin: 0 200px;
   transform: translateY(-100%);
 }
 
@@ -15,27 +15,9 @@
 
 /*grid ends*/
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 0 16.2337662vw;
-}
-
-.logo {
-  /* background-color: red; */
-  font-size: 2rem;
-}
-
-.nav {
-  /* background-color: green; */
-  display: flex;
-  gap: 2vw;
-  flex-wrap: wrap;
-  font-size: 1.5rem;
-  
-}
-
-a{
-  color: black;
+.footer {
+  /* width: 100vw; */
+  height: 25vh;
+  background-color: rgb(255, 255, 255);
+  margin-top: 50px;
 }

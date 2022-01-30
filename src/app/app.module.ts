@@ -15,11 +15,14 @@ import { FrontendComponent } from './skills/frontend/frontend.component';
 import { BackendComponent } from './skills/backend/backend.component';
 import { DesignComponent } from './skills/design/design.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { ChatbotComponent } from './chatbot/chatbot.component';
+import { ChatbotComponent } from './project/chatbot/chatbot.component';
+import { ContactComponent } from './contact/contact.component';
+import { HeroContentComponent } from './hero-content/hero-content.component';
+import { TodoComponent } from './project/todo/todo.component';
 @NgModule({
-  declarations: [AppComponent, TwitterComponent, HomeComponent, ProjectComponent, TestComponent, AboutComponent, SkillsComponent, FrontendComponent, BackendComponent, DesignComponent, NavbarComponent, ChatbotComponent],
+  declarations: [AppComponent, TwitterComponent, HomeComponent, ProjectComponent, TestComponent, AboutComponent, SkillsComponent, FrontendComponent, BackendComponent, DesignComponent, NavbarComponent, ChatbotComponent, ContactComponent, HeroContentComponent, TodoComponent],
   imports: [BrowserModule, AppRoutingModule, NgChartsModule, NgbModule, HttpClientModule],
-  providers: [],
+  providers: [ChatbotComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
