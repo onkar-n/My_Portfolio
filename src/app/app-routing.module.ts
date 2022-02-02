@@ -1,3 +1,4 @@
+import { RxjsComponent } from './project/rxjs/rxjs.component';
 import { TodoComponent } from './project/todo/todo.component';
 import { ContactComponent } from './contact/contact.component';
 import { SkillsComponent } from './skills/skills.component';
@@ -25,6 +26,11 @@ const routes: Routes = [
         path: 'todo',
         component: TodoComponent,
       },
+
+      {
+        path: 'rxjs',
+        component: RxjsComponent,
+      },
     ],
   },
 
@@ -37,6 +43,10 @@ const routes: Routes = [
       {
         path: 'todo',
         component: TodoComponent,
+      },
+      {
+        path: 'rxjs',
+        component: RxjsComponent,
       },
     ],
   },

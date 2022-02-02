@@ -19,8 +19,9 @@ import { ChatbotComponent } from './project/chatbot/chatbot.component';
 import { ContactComponent } from './contact/contact.component';
 import { HeroContentComponent } from './hero-content/hero-content.component';
 import { TodoComponent } from './project/todo/todo.component';
+import { RxjsComponent } from './project/rxjs/rxjs.component';
 @NgModule({
-  declarations: [AppComponent, TwitterComponent, HomeComponent, ProjectComponent, TestComponent, AboutComponent, SkillsComponent, FrontendComponent, BackendComponent, DesignComponent, NavbarComponent, ChatbotComponent, ContactComponent, HeroContentComponent, TodoComponent],
+  declarations: [AppComponent, TwitterComponent, HomeComponent, ProjectComponent, TestComponent, AboutComponent, SkillsComponent, FrontendComponent, BackendComponent, DesignComponent, NavbarComponent, ChatbotComponent, ContactComponent, HeroContentComponent, TodoComponent, RxjsComponent],
   imports: [BrowserModule, AppRoutingModule, NgChartsModule, NgbModule, HttpClientModule],
   providers: [ChatbotComponent],
   bootstrap: [AppComponent],
